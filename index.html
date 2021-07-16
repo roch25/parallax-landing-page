@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Bon Voyage</title>
+
+    <!-- Bootstrap links -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Happy+Monkey&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent"
+      >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-flex justify-content-around"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav ml-4">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#plans">Plans</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <div class="input-group">
+              <input
+                class="form-control py-2 border-right-0 border"
+                type="search"
+                placeholder="Search"
+              />
+              <div class="input-group-append">
+                <div class="input-group-text bg-transparent">
+                  <i class="material-icons">search</i>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <div class="banner"></div>
+    <div class="text-center">
+      <h1 class="display-3 text-uppercase">Bon Voyage</h1>
+      <p>For memorable holidays</p>
+    </div>
+
+    <div class="jumbotron container-fluid bg-transparent col-md-8" id="plans">
+      <h2>Plans</h2>
+      <div class="card-deck mt-4">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="images/ooty.jpeg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ooty</h5>
+            <p class="card-text">
+              Ooty (short for Udhagamandalam) is a resort town in the Western
+              Ghats mountains, in southern India's Tamil Nadu state.
+            </p>
+          </div>
+          <div class="card-footer">
+            Explore
+            <span class="material-icons md-16"> travel_explore </span>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="images/pondicherry.jpeg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Pondicherry</h5>
+            <p class="card-text">
+              Pondicherry (or Puducherry), a French colonial settlement in India
+              until 1954, is now a Union Territory town bounded by the
+              southeastern Tamil Nadu state.
+            </p>
+          </div>
+          <div class="card-footer">
+            Explore
+            <span class="material-icons md-16"> travel_explore </span>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="images/darjeeling.jpeg"
+            alt="Darjeeling"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Darjeeling</h5>
+            <p class="card-text">
+              Darjeeling is a town in India's West Bengal state, in the
+              Himalayan foothills.
+            </p>
+            <p class="card-text">Popularly known as the "Mecca of Tea".</p>
+          </div>
+          <div class="card-footer">
+            Explore
+            <span class="material-icons md-16"> travel_explore </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron container-fluid bg-transparent col-md-8" id="about">
+      <h2>About</h2>
+      <p class="lead mt-4">
+        Travel agency landing page (parallex) made using Bootstrap.
+      </p>
+    </div>
+    <footer>
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.1)">
+        July 2021 · Made with <i class="material-icons md-16">favorite</i>
+        <a class="text-reset fw-bold" href="https://github.com/roch25">
+            Rochelle Martins
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

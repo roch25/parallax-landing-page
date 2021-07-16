@@ -1,0 +1,28 @@
+body {
+  font-family: "Nunito";
+}
+.banner {
+  background-image: url("images/banner.jpeg");
+  background-attachment: fixed;
+  background-position: -5px -60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 580px;
+  position: relative;
+}
+.banner + div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Happy Monkey";
+}
+
+.material-icons,
+.card-footer {
+  cursor: pointer;
+}
+
+.material-icons.md-16 {
+  font-size: 16px;
+}
