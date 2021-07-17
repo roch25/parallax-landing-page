@@ -7,7 +7,7 @@
 
     <title>Felices Fiestas</title>
 
-    <!-- Bootstrap links -->
+    <!-- Bootstrap CDNs -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -30,14 +30,16 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Google Material Icons CDN -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
 
-    <link rel="stylesheet" href="style.css">
+    <!-- Local stylesheet -->
+    <link rel="stylesheet" href="style.css" />
 
-    <!-- Fonts -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -61,37 +63,36 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse d-flex justify-content-around"
-          id="navbarNavDropdown"
-        >
-          <ul class="navbar-nav ml-4">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#plans">Plans</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <div class="input-group">
-              <input
-                class="form-control py-2 border-right-0 border"
-                type="search"
-                placeholder="Search"
-              />
-              <div class="input-group-append">
-                <div class="input-group-text bg-transparent">
-                  <i class="material-icons">search</i>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <div class="d-flex justify-content-around w-100">
+            <ul class="navbar-nav ml-4">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#plans">Plans</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <div class="input-group">
+                <input
+                  class="form-control py-2 border-right-0 border"
+                  type="search"
+                  placeholder="Search"
+                />
+                <div class="input-group-append">
+                  <div class="input-group-text bg-transparent">
+                    <i class="material-icons">search</i>
+                  </div>
                 </div>
               </div>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
       </nav>
     </header>
@@ -105,7 +106,7 @@
     <div class="jumbotron container-fluid bg-transparent col-md-8" id="plans">
       <h2>Plans</h2>
       <div class="card-deck mt-4">
-        <div class="card">
+        <div class="card shadow">
           <img
             class="card-img-top"
             src="images/ooty.jpeg"
@@ -123,7 +124,7 @@
             <span class="material-icons md-16"> travel_explore </span>
           </div>
         </div>
-        <div class="card">
+        <div class="card shadow">
           <img
             class="card-img-top"
             src="images/pondicherry.jpeg"
@@ -142,7 +143,7 @@
             <span class="material-icons md-16"> travel_explore </span>
           </div>
         </div>
-        <div class="card">
+        <div class="card shadow">
           <img
             class="card-img-top"
             src="images/darjeeling.jpeg"
@@ -174,7 +175,7 @@
       <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.1)">
         July 2021 · Made with <i class="material-icons md-16">favorite</i>
         <a class="text-reset fw-bold" href="https://github.com/roch25">
-            Rochelle Martins
+          Rochelle Martins
         </a>
       </div>
     </footer>
